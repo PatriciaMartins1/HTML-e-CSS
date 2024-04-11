@@ -1,0 +1,83 @@
+
+body {
+    font-family: Open Sans, sans-serif;
+}
+
+.cabecalho{
+    height: 100px;
+    border-bottom: solid 1px #000;
+    margin-bottom: 40px;        
+}
+
+h1{    
+    text-transform: uppercase;
+    margin-bottom: 0;  
+}
+
+.secao-cards{
+    margin: 0 auto;  
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.card{
+    display: inline-block;
+    margin: 10px;
+    border: solid 1px #000;
+    vertical-align: top;
+    max-height: 100%;
+}
+
+.card-img{    
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+.card-detalhe{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+.card-sumario{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.card-paragrafo{
+    padding: 0 10px;
+}
+
+.card-citacao{
+    color: #777;
+    font-style: italic;
+}
+
+@media (max-width: 768px){
+    .cabecalho{
+        margin-bottom: 20px;
+        height: 200px ;
+    }
+    h1{
+        font-size: 36px;
+    }
+    .card{
+        display: block;
+        margin:20px 10px;
+    }
+    .card-img{
+        width: 100%;
+        height: 100%;        
+    }
+    .card-detalhe{
+        width: 100%;
+    }
+    .card-sumario{
+        font-size: 16px;
+    }
+    .card-paragrafo{
+        font-size: 14px;
+    }
+}
